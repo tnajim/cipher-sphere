@@ -60,8 +60,8 @@ const Comment = ({ threadId, currentUserImg, currentUserId }: Props) => {
           control={form.control}
           name="thread"
           render={({ field }) => (
-            <FormItem className="flex flex-col w-full gap-3">
-              <FormLabel className="text-base-semibold text-light-2">
+            <FormItem className="flex items-center w-full gap-3">
+              <FormLabel>
                 <Image
                   src={currentUserImg}
                   alt="Profile image"
@@ -78,13 +78,12 @@ const Comment = ({ threadId, currentUserImg, currentUserId }: Props) => {
                   {...field}
                 />
               </FormControl>
-              <FormMessage />
             </FormItem>
           )}
         />
 
-        <Button type="submit" className="bg-primary-500">
-          Post Thread
+        <Button type="submit" className="comment-form_btn">
+          Reply
         </Button>
       </form>
     </Form>
