@@ -144,6 +144,9 @@ export async function getActivity(userId: string) {
     const userThreads = await Thread.find({ author: userId });
 
     // collect all the child thread ids (replies) from the 'children'
+    const childThreadIds = userThreads.reduce((acc, userThread) => {
+      return acc.concat(userThread.children)
+    })
 
   } catch (error: any) {
     throw new Error(`Failed to fetch activity: ${error.message}`)
