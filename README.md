@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CipherSphere
+CipherSphere is a threads app clone created using Next.js and Clerk for authentication.
 
-## Getting Started
+[Live Website](https://ciphersphere.vercel.app/)
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+CipherSphere is a Next.js application that replicates the functionality of a threads app. It allows users to create threads, post replies, and interact with each other in a threaded conversation format. The authentication system is powered by Clerk, providing a secure and seamless user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Thread Creation:** Users can create threads to initiate discussions on various topics.
+- **Replies:** Thread participants can reply to threads to contribute to the conversation.
+- **Authentication:** Secure user authentication and authorization through Clerk.
+- **Responsive Design:** The app is designed to work seamlessly across different devices and screen sizes.
+- **Search:** Discover and search for threads or topics of interest.
+- **Activity:** Keep track of recent replies to your threads.
+- **Communities:** Explore and join different communities or groups.
+- **Profile:** Access and manage your user profile.
