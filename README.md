@@ -17,3 +17,18 @@ CipherSphere is a Next.js application that replicates the functionality of a thr
 - **Activity:** Keep track of recent replies to your threads.
 - **Communities:** Explore and join different communities or groups.
 - **Profile:** Access and manage your user profile.
+
+### Todo list:
+- left sidebar tab hover effect
+- onboarding submit button hover animation
+- add thread action button hover effects
+- style the view button in search tab
+- double check onboarding redirect on subsequent logins
+
+after backend api is done:
+- check upload functionality core.ts (eslint underline)
+
+maybe todo:
+- like functionality
+- repost functionality
+- share functionality
