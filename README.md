@@ -18,6 +18,18 @@ CipherSphere is a Next.js application that replicates the functionality of a thr
 - **Communities:** Explore and join different communities or groups.
 - **Profile:** Access and manage your user profile.
 
+## Screenshots
+
+### Homepage
+![homepage](https://github.com/tnajim/cipher-sphere/assets/47018694/3120442d-fa34-48e0-b0cc-8de93d712cdc)
+
+### Activity Page
+![activity](https://github.com/tnajim/cipher-sphere/assets/47018694/278cf961-4bad-4fe6-b2e7-5e484c82305d)
+
+### Profile Page
+![profile](https://github.com/tnajim/cipher-sphere/assets/47018694/0977f680-73e6-4e39-8d3c-437e8996522c)
+
+
 ### Todo list:
 - left sidebar tab hover effect
 - onboarding submit button hover animation
